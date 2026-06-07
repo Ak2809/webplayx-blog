@@ -11,6 +11,9 @@ collections:
       - label: "Home Page"
         name: "homepage"
         file: "content/homepage.md"
+        - label: "About"
+        name: "about"
+        file: "content/about.md"
         fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Content", name: "body", widget: "markdown"}
