@@ -8,23 +8,10 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - label: "Home Page"
-        name: "homepage"
-        file: "content/homepage.md"
+      - file: 'content/page/home.md'
+        label: 'Home'
+        name: 'home'
         fields:
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Content", name: "body", widget: "markdown"}
-file: 'content/page/about.md'
-        label: 'About'
-        name: 'about'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - {
-              label: 'Description',
-              name: 'description',
-              widget: 'markdown',
-              sanitize_preview: true,
-              buttons: ['bold', 'italic', 'link'],
-              modes: ['rich_text'],
-              editor_components: [''],
-            }
+          - label: 'Title'
+            name: 'title'
+            widget: string
