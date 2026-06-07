@@ -1,9 +1,9 @@
 backend:
-  name: github
-  repo: Ak2809/webplayx-blog
+  name: git-gateway
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
+
 collections:
   - name: "pages"
     label: "Pages"
@@ -12,5 +12,5 @@ collections:
         name: "homepage"
         file: "content/homepage.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Content", name: "body", widget: "markdown" }
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
